@@ -1,6 +1,6 @@
 import cv2 as vision
 
-# Change VideoCapture to 1, if U using external Webcam with USB Connecting
+# Change VideoCapture to 1 {That is the index of your USB Port}, if U using external Webcam with USB Connecting
 cam = vision.VideoCapture(0)
 
 while True:
